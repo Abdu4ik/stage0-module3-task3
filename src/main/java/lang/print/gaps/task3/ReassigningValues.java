@@ -18,11 +18,11 @@ public class ReassigningValues {
         second = 6;
         third = 4;
         
-        System.err.println(first);
-        System.err.println(second);
-        System.err.println(third);
         System.err.println(linkToFirst);
         System.err.println(linkToSecond);
         System.err.println(linkToThird);
+        System.err.println(first);
+        System.err.println(second);
+        System.err.println(third);
     }
 }
