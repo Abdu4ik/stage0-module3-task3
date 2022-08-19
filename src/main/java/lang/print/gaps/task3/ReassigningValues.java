@@ -6,9 +6,9 @@ public class ReassigningValues {
         int second = 10;
         int third = 100;
         
-        System.out.println(first);
-        System.out.println(second);
-        System.out.println(third);
+        System.err.println(first);
+        System.err.println(second);
+        System.err.println(third);
         
         int linkToFirst = first;
         int linkToSecond = second;
@@ -18,11 +18,11 @@ public class ReassigningValues {
         second = 6;
         third = 4;
         
-        System.out.println(first);
-        System.out.println(second);
-        System.out.println(third);
-        System.out.println(linkToFirst);
-        System.out.println(linkToSecond);
-        System.out.println(linkToThird);
+        System.err.println(first);
+        System.err.println(second);
+        System.err.println(third);
+        System.err.println(linkToFirst);
+        System.err.println(linkToSecond);
+        System.err.println(linkToThird);
     }
 }
